@@ -1,4 +1,7 @@
 
+import java.io.IOException;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 import javax.swing.JOptionPane;
 
 /*
@@ -12,10 +15,11 @@ import javax.swing.JOptionPane;
  * @author Diego
  */
 public class MainFrame extends javax.swing.JFrame {
-    
-    Lienzo lienzo = new Lienzo();
+ 
+    Canvas lienzo;
     
     public MainFrame() {
+        this.lienzo = new Canvas();
         
         initComponents();
         this.setLocationRelativeTo(null);
@@ -32,7 +36,7 @@ public class MainFrame extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        lienzo1 = new Lienzo();
+        lienzo1 = new Canvas();
         btn_RYU = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
@@ -112,6 +116,8 @@ public class MainFrame extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton btn_RYU;
-    private Lienzo lienzo1;
+    private Canvas lienzo1;
     // End of variables declaration//GEN-END:variables
+
+ 
 }
