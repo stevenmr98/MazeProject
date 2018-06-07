@@ -39,13 +39,13 @@ public class Ryu extends Character{
             try {
                 super.setImage(sprite.get(0));
                 Thread.sleep(500);
-                System.out.println("Pinta 0");
+//                System.out.println("Pinta 0");
                 super.setImage(sprite.get(1));
                 Thread.sleep(500);
-                System.out.println("Pinta 1");
+//                System.out.println("Pinta 1");
                 super.setImage(sprite.get(2));
                 Thread.sleep(500);
-                System.out.println("Pinta 2");
+//                System.out.println("Pinta 2");
             } catch (InterruptedException ex) {
                 Logger.getLogger(Ryu.class.getName()).log(Level.SEVERE, null, ex);
             }

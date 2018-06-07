@@ -45,7 +45,7 @@
     </DimensionLayout>
   </Layout>
   <SubComponents>
-    <Component class="Lienzo" name="lienzo1">
+    <Component class="Canvas" name="lienzo1">
     </Component>
     <Component class="javax.swing.JButton" name="btn_RYU">
       <Properties>
